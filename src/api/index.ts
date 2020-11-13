@@ -1,4 +1,4 @@
-const host = process.env.FIREBASE_HOST;
+const host = process.env.FIREBASE_HOST || 'https://us-central1-clikalia-pets.cloudfunctions.net';
 
 const getPetsUrl = (): string => {
   const insightsUrl = `${host}/pets`;
