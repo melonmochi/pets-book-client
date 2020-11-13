@@ -1,0 +1,8 @@
+node_modules
+
+# Production files
+dist
+lib
+
+# Environment variable file
+.env
